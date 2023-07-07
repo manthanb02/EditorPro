@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#00293d">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="15dp"
+        android:backgroundTint="#18ffffff">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/Logo"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/photoeditor4">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="50dp"
+                android:text="@string/photo_editor_app"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/pic2"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/photoeditor5">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/edit_photo"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:backgroundTint="#10ffffff"
+        android:text="@string/edit_the_photo"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+
+        >
+
+    </Button>
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/edit_photo"-->
+<!--        android:layout_width="340dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/pic2"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:background="@drawable/rounded_corners"-->
+<!--        android:backgroundTint="#18ffffff"-->
+<!--        android:text="@string/edit_the_photo"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="15sp" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:layout_width="340dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/edit_photo"-->
+<!--        android:layout_below="@+id/pic2"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:background="@drawable/rounded_corners"-->
+<!--        android:backgroundTint="#18ffffff"-->
+<!--        android:text="@string/edit_the_photo"-->
+<!--        android:textSize="15sp"-->
+<!--        android:textColor="@color/white">-->
+<!--    </androidx.appcompat.widget.AppCompatButton>-->
+
+
+    <!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:layout_width="200dp"-->
+<!--        android:text="Take Photo"-->
+<!--        android:visibility="invisible"-->
+<!--        android:id="@+id/open_camera"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:background="@color/teal_700"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        />-->
+
+
+</RelativeLayout>

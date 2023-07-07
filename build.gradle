@@ -1,0 +1,21 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '7.2.0' apply false
+    id 'com.android.library' version '7.2.0' apply false
+}
+
+allprojects {
+    repositories {
+        mavenCentral()//error
+        //solved by solution : Remove the dependencyResolutionManagement block from the setting.gradle file to have your project work the old way
+        google()//Google's maven repository
+
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

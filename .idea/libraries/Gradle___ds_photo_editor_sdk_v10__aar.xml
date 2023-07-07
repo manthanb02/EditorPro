@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: :ds-photo-editor-sdk-v10:@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5df9e51d4c446ae003d258748dc3b6d7/transformed/ds-photo-editor-sdk-v10/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5df9e51d4c446ae003d258748dc3b6d7/transformed/ds-photo-editor-sdk-v10/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5df9e51d4c446ae003d258748dc3b6d7/transformed/ds-photo-editor-sdk-v10/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5df9e51d4c446ae003d258748dc3b6d7/transformed/ds-photo-editor-sdk-v10/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

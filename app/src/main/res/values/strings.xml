@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EditorPro</string>
+    <string name="edit_the_photo">Edit the Photo</string>
+    <string name="photo_editor_app">Photo Editor App</string>
+</resources>
